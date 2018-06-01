@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  &__menu {
+    flex: 0 0 200px;
+  }
+  &__content {
+    flex: 1;
+    padding: 16px;
+    mat-form-field:first-child {
+      margin-right: 16px;
+    }
+  }
+}
+
+.mat-nav-list a.active {
+  background: #4054B2;
+  color: #ffffff;
+}
